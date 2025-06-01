@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- Consider linking Github and Gitlab to the web page. -->
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    Arbeid
+  </title>
+  <script src="{{ url_for('static', filename='Code/JavaScript/Work.js') }}"></script>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Code/CSS/Work.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Code/CSS/Common_colours.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Code/CSS/Navigation_bar.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Code/CSS/Fonts.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Code/CSS/Footer.css') }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="flex-container" id="whole_navigation-bar">
+      <div class="flex-container" id="inner_navigation-bar">
+        <div id="home" class="flex-item">
+          <h3>
+            <a href="{{ url_for('Home') }}" id="nav-link-home" class="nav-link">Heim</a>
+          </h3>
+        </div>
+        <div id="work" class="flex-item">
+          <h3>
+            <a href="{{ url_for('Work') }}" id="nav-link-work" class="nav-link">Arbeid</a>
+          </h3>
+        </div>
+        <div id="about" class="flex-item">
+          <h3>
+            <a href="{{ url_for('About') }}" id="nav-link-about" class="nav-link">Om meg</a>
+          </h3>
+        </div>
+        <div id="contact" class="flex-item">
+          <h3>
+            <a href="{{ url_for('Contact') }}" id="nav-link-contact" class="nav-link">Kontakt</a>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </header>
+  <br>
+  <footer>
+    <div class="copyright">
+      <p>
+        © 2024 Benjamin Andreas Vraspillai. All rights reserved.
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+}
+
+#nav-link-home {
+  color: white;
+  border-radius: 0px 0px;
+  padding: 12px 12px 12px 12px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid aqua;
+}
+
+.introduction_headline {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.introduction {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+.self_portrait {
+  display: block;
+  margin: auto;
+  border-radius: 50px;
+  width: 250px;
+}
+
+.seperator_line {
+  width: 75%;
+}
+
+.recent_news_headline {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.recent_news_content {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+
+.work {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}

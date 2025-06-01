@@ -1,0 +1,60 @@
+#whole_navigation-bar {
+  display: flex;
+  /* Consider changing this to space-evenly. */
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-size: 15px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#inner_navigation-bar {
+  /*background-color: #8E936D;*/
+  border-radius: 15px 15px;
+  padding: 5px 5px 5px 5px;
+  width: 700px;
+}
+
+.nav-link {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  width: 5em;
+  /*background-color: dimgrey;*/
+  /*background-color: darkslategrey;*/
+  border-radius: 5px 5px;
+  padding: 12px 12px 12px 12px;
+  text-decoration: none;
+  border-bottom-width: 1px;
+}
+
+.nav-link:hover {
+  /*background-color: #044241;*/
+}
+
+#home {
+  order: 1;
+}
+
+#work {
+  order: 2;
+}
+
+#about {
+  order: 3;
+}
+
+#contact {
+  order: 4;
+}
+
+#blog {
+  order: 5;
+}

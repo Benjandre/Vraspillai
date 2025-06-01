@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>
+    Heim
+  </title>
+  <script src="{{ url_for('static', filename='Code/JavaScript/Home.js') }}"></script>
+  <script src="{{ url_for('static', filename='Code/JavaScript/Loading.js') }}"></script>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Code/CSS/Home.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Code/CSS/Common_colours.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Code/CSS/Navigation_bar.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Code/CSS/Fonts.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Code/CSS/Footer.css') }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="flex-container" id="whole_navigation-bar">
+      <div class="flex-container" id="inner_navigation-bar">
+        <div id="home" class="flex-item">
+          <h3>
+            <a href="{{ url_for('Home') }}" id="nav-link-home" class="nav-link">Heim</a>
+          </h3>
+        </div>
+        <div id="work" class="flex-item">
+          <h3>
+            <a href="{{ url_for('Work') }}" id="nav-link-work" class="nav-link">Arbeid</a>
+          </h3>
+        </div>
+        <div id="about" class="flex-item">
+          <h3>
+            <a href="{{ url_for('About') }}" id="nav-link-about" class="nav-link">Om meg</a>
+          </h3>
+        </div>
+        <div id="contact" class="flex-item">
+          <h3>
+            <a href="{{ url_for('Contact') }}" id="nav-link-contact" class="nav-link">Kontakt</a>
+          </h3>
+        </div>
+      </div>
+    </div>
+  </header>
+  <br>
+  <div class="introduction_headline">
+    <h1>
+      Kven er eg?
+    </h1>
+  </div>
+  <div class="introduction">
+    <p>
+      Hallo, mitt namn er Benjamin. Eg er ein informasjonsvitar med nokre års arbeidserfaring.
+    </p>
+  </div>
+  <img src="{{ url_for('static', filename='Picture/Benjamin/benjamin.jpg')}}" class="self_portrait">
+  <br>
+  <!-- This line will be smaller than the one above. -->
+  <hr class="seperator_line">
+  <div class="work">
+    <h1>
+      Kva har eg gjort fram til no?
+    </h1>
+  </div>
+  <br>
+  <hr class="seperator_line">
+  <div class="recent_news_headline">
+    <h1>
+      Kva gjer eg no?
+    </h1>
+  </div>
+    <br>
+    <div class="recent_news_content">
+    <p>
+      Eg er på utkikk etter nye utfordringer.
+    </p>
+    </div>
+  <br>
+  <footer>
+    <div class="copyright">
+      <p>
+        © 2024 Benjamin Andreas Vraspillai. All rights reserved.
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>

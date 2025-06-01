@@ -1,0 +1,8 @@
+footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  background-color: #2f333d;
+  color: white;
+  padding: 5px;
+}
